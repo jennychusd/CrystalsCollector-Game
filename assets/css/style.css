@@ -1,0 +1,42 @@
+body {
+	background-image: url('../images/background.png');
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.row {
+	margin: 10px 0;
+}
+
+.description {
+	background-color: #ffffff;
+	padding:10px;
+}
+
+#currentScore {
+	background-color: #ffe6b3;
+	height:100px;
+}
+
+.scoreBoard {
+	background-color: #ffffcc;
+	min-height:100px;
+}
+
+.crystalsRow {
+	background-color: #ffffff;
+}
+
+.crystalIcon {
+	width: 75px;
+	height: 75px;
+	padding:5px;
+}
+
+.userScoreRow {
+	background-color: #00b3b3;
+	padding:10px;
+}
