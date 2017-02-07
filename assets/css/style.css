@@ -5,6 +5,8 @@ body {
 
 h1 {
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 3px;
 }
 
 .row {
@@ -16,14 +18,24 @@ h1 {
 	padding:10px;
 }
 
+.col-xs-4 {
+	font-size:24px;
+	min-height:100px;
+	text-align:center;
+	padding:10px 0;
+}
+
 #currentScore {
 	background-color: #ffe6b3;
-	height:100px;
 }
 
 .scoreBoard {
 	background-color: #ffffcc;
-	min-height:100px;
+	font-size:20px;
+}
+
+#annouceDisplay {
+	background-color: #ffb3b3;
 }
 
 .crystalsRow {
@@ -39,4 +51,6 @@ h1 {
 .userScoreRow {
 	background-color: #00b3b3;
 	padding:10px;
+	font-size:24px;
+	text-align:center;
 }
